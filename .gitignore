@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Local agent state
+.gstack/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors
+.idea/
+*.code-workspace
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Model weights and generated caches
+*.bin
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+.cache/
+huggingface/
+
+# Benchmark and profiler artifacts
+*.prof
+*.trace.json
+*.sqlite
