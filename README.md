@@ -10,4 +10,9 @@
 - 구조와 데이터 흐름을 설명하는 그림
 - 성능 측정 과정과 결과
 
-현재는 프로젝트 구성과 학습 환경을 정리하는 단계입니다.
+## 현재 실험
+
+- [PyTorch MPS에서 Qwen3-4B 실행](experiments/pytorch-qwen/README.md)
+
+Python 실행 환경은 실험별로 분리된 uv 프로젝트로 관리합니다. 구조를 선택한 이유는
+[Python 프로젝트 구성 결정](docs/decisions/0001-python-project-layout.md)에 기록합니다.
